@@ -1,0 +1,134 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  USER
+  SUBSCRIBER
+  ADMIN
+}
+
+enum ContentRating {
+  G
+  PG
+  PG13
+  R
+  NC17
+  TV14
+  TVMA
+}
+
+enum MediaStatus {
+  DRAFT
+  TRANSCODING
+  SCHEDULED
+  PUBLISHED
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  passwordHash  String?
+  name          String
+  role          Role      @default(USER)
+  emailVerified DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  profiles      Profile[]
+}
+
+model Profile {
+  id               String             @id @default(cuid())
+  userId           String
+  user             User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name             String
+  avatarUrl        String
+  isKids           Boolean            @default(false)
+  pin              String?
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+  continueWatching ContinueWatching[]
+  watchlist        Watchlist[]
+}
+
+model MediaItem {
+  id                   String             @id @default(cuid())
+  title                String
+  slug                 String             @unique
+  description          String
+  backdropUrl          String
+  posterUrl            String
+  trailerUrl           String
+  videoUrl             String
+  hlsMasterUrl         String
+  duration             String
+  durationSeconds      Int
+  releaseYear          Int
+  rating               ContentRating      @default(TV14)
+  matchPercentage      Int                @default(95)
+  is4K                 Boolean            @default(true)
+  isHDR                Boolean            @default(true)
+  isDolbyAtmos         Boolean            @default(false)
+  isOriginal           Boolean            @default(false)
+  isTrending           Boolean            @default(false)
+  isTop10              Int?
+  type                 String             @default("movie") // movie | series
+  genres               String[]
+  tags                 String[]
+  director             String
+  cast                 String[]
+  audioLanguages       String[]
+  subtitleLanguages    String[]
+  availableResolutions String[]
+  status               MediaStatus        @default(PUBLISHED)
+  scheduledPublishDate DateTime?
+  viewsCount           Int                @default(0)
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+  episodes             Episode[]
+  continueWatching     ContinueWatching[]
+  watchlist            Watchlist[]
+}
+
+model Episode {
+  id           String    @id @default(cuid())
+  mediaId      String
+  mediaItem    MediaItem @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  seasonNumber Int
+  episodeNum   Int
+  title        String
+  description  String
+  duration     String
+  thumbnailUrl String
+  videoUrl     String
+  hlsMasterUrl String
+}
+
+model ContinueWatching {
+  id              String    @id @default(cuid())
+  profileId       String
+  profile         Profile   @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  mediaId         String
+  mediaItem       MediaItem @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  timestamp       Int
+  durationSeconds Int
+  updatedAt       DateTime  @updatedAt
+
+  @@unique([profileId, mediaId])
+}
+
+model Watchlist {
+  id        String    @id @default(cuid())
+  profileId String
+  profile   Profile   @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  mediaId   String
+  mediaItem MediaItem @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  addedAt   DateTime  @default(now())
+
+  @@unique([profileId, mediaId])
+}
