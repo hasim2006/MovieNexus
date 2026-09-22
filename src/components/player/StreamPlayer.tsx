@@ -535,3 +535,5 @@ export default function StreamPlayer({ movie, initialTimestamp = 0, onOpenShare 
     </div>
   );
 }
+
+// Adaptive Bitrate streaming resolution auto-negotiation
