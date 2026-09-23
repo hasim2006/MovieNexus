@@ -538,3 +538,4 @@ export default function StreamPlayer({ movie, initialTimestamp = 0, onOpenShare 
 
 // Adaptive Bitrate streaming resolution auto-negotiation
 // Playback rate selector: 0.5x, 0.75x, 1.0x, 1.25x, 1.5x, 2.0x
+// Theater mode and picture-in-picture viewport hooks
