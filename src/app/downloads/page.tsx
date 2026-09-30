@@ -167,3 +167,5 @@ export default function DownloadsPage() {
     </div>
   );
 }
+
+// Real-time chunk progress meter and abort controller
