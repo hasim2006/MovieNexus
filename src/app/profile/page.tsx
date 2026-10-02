@@ -235,3 +235,5 @@ export default function ProfilePage() {
     </div>
   );
 }
+
+// Watch history carousel and profile avatar picker
