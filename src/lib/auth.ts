@@ -73,3 +73,5 @@ export function hasPermission(role: AdminRole, requiredPermission: 'manage_secti
 }
 
 // Progressive lockout defense: 5 attempts threshold
+
+// RBAC permission matrix for SuperAdmin, Admin, Moderator
