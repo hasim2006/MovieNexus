@@ -165,3 +165,5 @@ export default function AdminLoginPage() {
     </div>
   );
 }
+
+// Auto session timeout after 30 minutes inactivity
