@@ -174,3 +174,5 @@ export default function AdminSectionsPage() {
     </div>
   );
 }
+
+// Priority weight reordering calculation
