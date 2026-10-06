@@ -162,3 +162,5 @@ export default function AdminVideosPage() {
     </div>
   );
 }
+
+// Fast metadata editor and deletion modal
