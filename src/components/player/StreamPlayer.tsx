@@ -542,3 +542,5 @@ export default function StreamPlayer({ movie, initialTimestamp = 0, onOpenShare 
 // Watchpoint heartbeat sync to localStorage & DB
 
 // HLS buffer tuning: maxBufferLength = 30
+
+// Audio desync compensation on track switch
