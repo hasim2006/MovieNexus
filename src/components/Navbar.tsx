@@ -332,3 +332,5 @@ export default function Navbar() {
     </>
   );
 }
+
+// ARIA role navigation and accessible labels
