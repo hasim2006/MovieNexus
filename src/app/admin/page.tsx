@@ -192,3 +192,5 @@ export default function AdminDashboardPage() {
     </div>
   );
 }
+
+// Admin active navigation indicator styling
