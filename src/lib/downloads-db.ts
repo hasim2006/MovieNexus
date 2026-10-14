@@ -81,3 +81,5 @@ export function calculateTotalStorageUsed(downloads: DownloadItem[]): { usedMB: 
 }
 
 // AES stream chunk decryptor for offline playback
+
+// Chunk stream reader optimization for 4K video files
