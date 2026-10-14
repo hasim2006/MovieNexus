@@ -546,3 +546,5 @@ export default function StreamPlayer({ movie, initialTimestamp = 0, onOpenShare 
 // Audio desync compensation on track switch
 
 // Preserved playback timestamp across viewport fullscreen changes
+
+// Keyboard listener: Space (Play/Pause), Arrows (Seek/Volume)
