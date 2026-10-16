@@ -119,3 +119,5 @@ export default function SearchPage() {
 }
 
 // Debounced search input handler (300ms)
+
+// Unicode and accent normalization for search queries
