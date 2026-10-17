@@ -174,5 +174,3 @@ export function getStoredHealth(): SystemHealth {
     return INITIAL_HEALTH;
   }
 }
-
-// Database connection pool and storage fallback

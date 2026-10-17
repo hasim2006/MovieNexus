@@ -174,7 +174,3 @@ export default function AdminSectionsPage() {
     </div>
   );
 }
-
-// Priority weight reordering calculation
-
-// Shelf priority swap helper

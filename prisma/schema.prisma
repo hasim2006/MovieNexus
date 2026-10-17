@@ -132,5 +132,3 @@ model Watchlist {
 
   @@unique([profileId, mediaId])
 }
-
-// Indexes: User(email), Movie(priority), WatchHistory(userId, movieId)

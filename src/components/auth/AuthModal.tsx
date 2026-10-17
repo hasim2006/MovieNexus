@@ -244,5 +244,3 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
     </div>
   );
 }
-
-// Two-factor email OTP validation engine

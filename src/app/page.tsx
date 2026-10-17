@@ -137,5 +137,3 @@ export default function HomePage() {
     </div>
   );
 }
-
-// Dynamic chunk loading for carousels

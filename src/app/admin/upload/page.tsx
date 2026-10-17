@@ -328,5 +328,3 @@ export default function AdminUploadPage() {
     </div>
   );
 }
-
-// Transcoding queue visualizer: 1080p, 720p, 480p

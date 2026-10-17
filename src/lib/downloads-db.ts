@@ -79,7 +79,3 @@ export function calculateTotalStorageUsed(downloads: DownloadItem[]): { usedMB: 
     totalQuotaMB: 50000, // 50 GB simulated browser quota
   };
 }
-
-// AES stream chunk decryptor for offline playback
-
-// Chunk stream reader optimization for 4K video files

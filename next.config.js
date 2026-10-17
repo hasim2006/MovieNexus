@@ -28,5 +28,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
-// Image optimization domains and CDN headers
