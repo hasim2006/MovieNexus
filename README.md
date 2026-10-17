@@ -3,34 +3,134 @@
 # 🎬 MovieNexus
 ### Enterprise-Grade 4K Ultra HD Cinematic Video Streaming Platform
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.1-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.0-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-6.1-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-[![HLS.js](https://img.shields.io/badge/HLS.js-Adaptive_Bitrate-FF6C37?style=for-the-badge)](https://github.com/video-dev/hls.js/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
+<p align="center">
+  <a href="https://streamvault-gamma-fawn.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_STREAMING_PLATFORM-VISIT_WEBSITE-E50914?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Website" />
+  </a>
+  <a href="https://streamvault-gamma-fawn.vercel.app/admin/login" target="_blank">
+    <img src="https://img.shields.io/badge/🛡️_ADMIN_STUDIO-LOGIN_PORTAL-1e293b?style=for-the-badge&logo=security&logoColor=white" alt="Admin Portal" />
+  </a>
+</p>
+
+[![Live Demo](https://img.shields.io/badge/Deployment-Vercel_Live-success?style=flat-square&logo=vercel)](https://streamvault-gamma-fawn.vercel.app/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.1-black?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-6.1-2D3748?style=flat-square&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![HLS.js](https://img.shields.io/badge/HLS.js-Adaptive_Bitrate-FF6C37?style=flat-square)](https://github.com/video-dev/hls.js/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)
 
 <p align="center">
   <b>A next-generation streaming engine delivering fluid 4K Ultra HD playback, enterprise-grade Role-Based Access Control (RBAC), an interactive Admin Studio, in-browser offline downloading, and dynamic homepage curation.</b>
 </p>
 
+🔗 **Live Production Link**: **[https://streamvault-gamma-fawn.vercel.app/](https://streamvault-gamma-fawn.vercel.app/)**
+
+[Live Showcase](#-live-showcase--catalog) •
+[Video Player](#-video-player-preview) •
 [Key Features](#-key-features) •
-[Architecture](#-system-architecture) •
 [Tech Stack](#-tech-stack) •
-[Quickstart](#-getting-started) •
 [Admin Studio](#-admin-credentials--studio) •
-[Database Schema](#-database-schema) •
-[Contributing](#-contributing)
+[Quickstart](#-getting-started) •
+[Database Schema](#-database-schema)
 
 ---
 
 </div>
 
+## 🎥 Video Player Preview
+
+Experience true **4K Ultra HD adaptive bitrate streaming** directly inside the custom video player with dynamic resolution switching, variable playback speeds, subtitles, and continue watching sync:
+
+<div align="center">
+
+https://github.com/user-attachments/assets/tears-of-steel-preview
+
+<video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" controls width="100%" poster="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=2000&auto=format&fit=crop" style="border-radius: 12px; max-height: 480px; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
+  Your browser does not support the video tag.
+</video>
+
+<p align="center">
+  <i>▶️ <b>Cyber Genesis 2099</b> — Streaming Live in 4K UHD with Adaptive HLS Bitrate</i><br>
+  <a href="https://streamvault-gamma-fawn.vercel.app/watch/cyber-genesis-4k"><b>[Click Here to Stream on Live Platform]</b></a>
+</p>
+
+</div>
+
+---
+
+## 🍿 Live Showcase & Catalog
+
+Here are top featured titles currently streaming on **[MovieNexus Live](https://streamvault-gamma-fawn.vercel.app/)**:
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/cyber-genesis-4k">
+        <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1000&auto=format&fit=crop" alt="Cyber Genesis 2099" style="border-radius: 8px; width: 100%;" />
+      </a>
+      <h3><a href="https://streamvault-gamma-fawn.vercel.app/watch/cyber-genesis-4k">⚡ Cyber Genesis 2099</a></h3>
+      <p><b>Original • 4K UHD HDR • Dolby Atmos</b></p>
+      <p><i>In a dystopian mega-city bathed in neon, a rogue cybernetic detective discovers a conspiracy that threatens the boundaries of human consciousness.</i></p>
+      <p><b>Cast:</b> Marcus Vance, Aria Thorne, Kenji Sato • <b>Match:</b> 99%</p>
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/cyber-genesis-4k"><b>▶ Watch Title</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/sintel-quest">
+        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop" alt="Sintel Dragon's Oath" style="border-radius: 8px; width: 100%;" />
+      </a>
+      <h3><a href="https://streamvault-gamma-fawn.vercel.app/watch/sintel-quest">🐉 Sintel: Dragon’s Oath</a></h3>
+      <p><b>Original • 4K UHD HDR • Spatial Audio</b></p>
+      <p><i>A lonely warrior searches snow-covered wastes and scorching deserts of a forgotten realm to rescue her kidnapped dragon companion.</i></p>
+      <p><b>Cast:</b> Halina Reijn, Thom Hoffman • <b>Match:</b> 96%</p>
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/sintel-quest"><b>▶ Watch Title</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/big-buck-bunny">
+        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1000&auto=format&fit=crop" alt="Big Buck Bunny" style="border-radius: 8px; width: 100%;" />
+      </a>
+      <h3><a href="https://streamvault-gamma-fawn.vercel.app/watch/big-buck-bunny">🌲 Big Buck Bunny: Forest Revenge</a></h3>
+      <p><b>Trending • 4K UHD • Family Comedy</b></p>
+      <p><i>When three ruthless forest bullies harm peaceful woodland creatures, a giant gentle rabbit takes sweet, inventive slapstick revenge.</i></p>
+      <p><b>Director:</b> Sacha Goedegebure • <b>Match:</b> 94%</p>
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/big-buck-bunny"><b>▶ Watch Title</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/chronicles-quantum-series">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop" alt="Chronicles of Quantum" style="border-radius: 8px; width: 100%;" />
+      </a>
+      <h3><a href="https://streamvault-gamma-fawn.vercel.app/watch/chronicles-quantum-series">🌌 Chronicles of Quantum (Season 1)</a></h3>
+      <p><b>TV Series • 8 Episodes • 4K UHD • Multiverse</b></p>
+      <p><i>Quantum physicists accidentally rip open multi-dimensional gateways, forcing them to hunt alternate versions of themselves.</i></p>
+      <p><b>Cast:</b> David Harbour, Rebecca Ferguson, Steven Yeun • <b>Match:</b> 98%</p>
+      <a href="https://streamvault-gamma-fawn.vercel.app/watch/chronicles-quantum-series"><b>▶ Watch Title</b></a>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+### 🎞️ Second Video Trailer Preview: Sintel Dragon's Oath
+
+<video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" controls width="100%" poster="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=2000&auto=format&fit=crop" style="border-radius: 12px; max-height: 480px; box-shadow: 0 10px 30px rgba(0,0,0,0.8);">
+  Your browser does not support the video tag.
+</video>
+
+<p align="center">
+  <i>▶️ <b>Sintel: Dragon's Oath</b> — Official 4K HDR Teaser Trailer</i>
+</p>
+
+</div>
+
+---
+
 ## 🌟 Key Features
 
 ### 🎥 1. Cinematic HLS Video Engine
-* **Adaptive Bitrate Streaming (ABR)**: Seamlessly alternates playback resolutions (`Auto`, `360p`, `720p`, `1080p FHD`, `4K UHD`) depending on client bandwidth.
+* **Adaptive Bitrate Streaming (ABR)**: Seamlessly alternates playback resolutions (`Auto`, `360p`, `720p`, `1080p FHD`, `4K UHD`) depending on client network bandwidth.
 * **Smart Playback Controls**: Variable playback speeds (`0.5x` to `2.0x`), volume normalization, theater mode, and full-screen gestures.
 * **Resume & Watch Points**: Real-time position tracking synchronizes watch history so users can pick up right where they left off.
 * **Anti-Hotlink Security**: Token-authenticated video segment delivery prevents external link hijacking.
@@ -64,46 +164,11 @@
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TD
-    Client["Modern Web Client (Next.js 15 App Router)"]
-    
-    subgraph Frontend["Frontend Layer"]
-        Hero["Hero & Content Carousels"]
-        Player["Custom HLS.js 4K Video Player"]
-        OfflineEngine["Offline IndexedDB Storage"]
-        AdminStudio["Admin Studio & RBAC Dashboard"]
-    end
-    
-    subgraph API["Next.js Server & API Routes"]
-        AuthMiddleware["JWT & Brute-Force Auth Guard"]
-        VideoRoutes["/api/videos & Transcode Queue"]
-        TokenRoutes["/api/token (Anti-Hotlink)"]
-        Sitemap["/api/sitemap & SEO Dynamic Generator"]
-    end
-    
-    subgraph Persistence["Storage & Database"]
-        Prisma["Prisma ORM 6.1"]
-        Postgres[(PostgreSQL Database)]
-        CDN["Edge CDN & HLS Video Bucket"]
-    end
-
-    Client --> Frontend
-    Frontend --> API
-    API --> Prisma
-    Prisma --> Postgres
-    Player --> CDN
-    OfflineEngine <--> Player
-```
-
----
-
 ## 💻 Tech Stack
 
 | Domain | Technology | Description |
 | :--- | :--- | :--- |
+| **Live Deployment** | [Vercel Edge Network](https://streamvault-gamma-fawn.vercel.app/) | Global edge distribution with ultra-low latency SSR |
 | **Framework** | [Next.js 15 (App Router)](https://nextjs.org/) | Hybrid Server Components, Edge API routes, and Server Actions |
 | **Library** | [React 19](https://react.dev/) | Concurrent rendering, modern hooks, and transition primitives |
 | **Language** | [TypeScript 5.7](https://www.typescriptlang.org/) | Strict type-safety across all components, models, and APIs |
@@ -111,6 +176,21 @@ graph TD
 | **Video Engine** | [HLS.js](https://github.com/video-dev/hls.js/) | Adaptive HTTP Live Streaming with dynamic bitrate switching |
 | **ORM & Database**| [Prisma 6.1](https://www.prisma.io/) + [PostgreSQL](https://www.postgresql.org/) | Type-safe schema migrations, relation queries, and connection pooling |
 | **Icons & Motion** | [Lucide React](https://lucide.dev/) + [Framer Motion](https://www.framer.com/motion/) | Slick iconography and hardware-accelerated animations |
+
+---
+
+## 🔑 Admin Credentials & Studio
+
+Access the protected management portal on the live deployment:
+👉 **[https://streamvault-gamma-fawn.vercel.app/admin/login](https://streamvault-gamma-fawn.vercel.app/admin/login)**
+
+| Role | Username | Password | Privileges |
+| :--- | :--- | :--- | :--- |
+| **Super Admin** | `admin` | `admin123` | Full access, system telemetry, admin provisioning, section ranking |
+| **Content Admin** | `content_mgr` | `admin123` | Video uploads, transcoding queue, metadata editing, category tags |
+| **Moderator** | `mod_alex` | `admin123` | Audit log monitoring, review uploads, security inspection |
+
+> **Security Note**: In production, initialize administrator accounts with strong, unique credentials and define appropriate IP whitelisting.
 
 ---
 
@@ -142,10 +222,10 @@ cp .env.example .env.local
 Configure your environment variables:
 ```env
 DATABASE_URL="postgresql://user:password@localhost:5432/movienexus_db?schema=public"
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
+NEXT_PUBLIC_APP_URL="https://streamvault-gamma-fawn.vercel.app"
 JWT_SECRET="super-secret-jwt-signing-key-movienexus-2026"
-CDN_EDGE_HOST="https://cdn.movienexus.app"
-CORS_ORIGIN="http://localhost:3000"
+CDN_EDGE_HOST="https://cdn.streamvault.app"
+CORS_ORIGIN="https://streamvault-gamma-fawn.vercel.app"
 ```
 
 ### 4. Database Setup & Prisma Migration
@@ -159,21 +239,7 @@ npx prisma db push
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
----
-
-## 🔑 Admin Credentials & Studio
-
-Access the protected management portal at `http://localhost:3000/admin/login`:
-
-| Role | Username | Password | Privileges |
-| :--- | :--- | :--- | :--- |
-| **Super Admin** | `admin` | `admin123` | Full access, system telemetry, admin provisioning, section ranking |
-| **Content Admin** | `content_mgr` | `admin123` | Video uploads, transcoding queue, metadata editing, category tags |
-| **Moderator** | `mod_alex` | `admin123` | Audit log monitoring, review uploads, security inspection |
-
-> **Security Note**: In production, initialize default administrator accounts with strong, unique credentials and define appropriate IP whitelisting.
+Open [https://streamvault-gamma-fawn.vercel.app](https://streamvault-gamma-fawn.vercel.app) to view the live production build or `http://localhost:3000` for your local instance.
 
 ---
 
@@ -232,7 +298,6 @@ model WatchHistory {
 MovieNexus/
 ├── prisma/
 │   └── schema.prisma             # PostgreSQL Prisma models & relations
-├── public/                       # Static public assets, posters & icons
 ├── src/
 │   ├── app/
 │   │   ├── admin/                # Admin Studio (Dashboard, Upload, Logs, Sections, Health)
@@ -290,5 +355,5 @@ Distributed under the Apache License 2.0. See [`LICENSE`](LICENSE) for more info
 ---
 
 <div align="center">
-  <sub>Engineered with precision by <a href="https://github.com/hasim2006">Mohammad Hasim</a>.</sub>
+  <sub>Engineered with precision by <a href="https://github.com/hasim2006">Mohammad Hasim</a> • Deployed live on <a href="https://streamvault-gamma-fawn.vercel.app/">Vercel</a>.</sub>
 </div>
