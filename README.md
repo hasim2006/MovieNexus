@@ -179,18 +179,20 @@ Here are top featured titles currently streaming on **[MovieNexus Live](https://
 
 ---
 
-## 🔑 Admin Credentials & Studio
+## 🛡️ Admin Studio & Role-Based Access Control (RBAC)
 
 Access the protected management portal on the live deployment:
 👉 **[https://streamvault-gamma-fawn.vercel.app/admin/login](https://streamvault-gamma-fawn.vercel.app/admin/login)**
 
-| Role | Username | Password | Privileges |
-| :--- | :--- | :--- | :--- |
-| **Super Admin** | `admin` | `admin123` | Full access, system telemetry, admin provisioning, section ranking |
-| **Content Admin** | `content_mgr` | `admin123` | Video uploads, transcoding queue, metadata editing, category tags |
-| **Moderator** | `mod_alex` | `admin123` | Audit log monitoring, review uploads, security inspection |
+MovieNexus enforces a secure, multi-tiered Role-Based Access Control (RBAC) architecture:
 
-> **Security Note**: In production, initialize administrator accounts with strong, unique credentials and define appropriate IP whitelisting.
+| Role | Access Scope & Responsibilities |
+| :--- | :--- |
+| **Super Admin** | Full platform control, real-time system telemetry diagnostics, administrator provisioning, and homepage section ranking |
+| **Content Admin** | 4K video uploads, transcode queue visualizer, metadata editing, and category shelf curation |
+| **Moderator** | Security audit log monitoring, review uploaded media, and verify reported titles |
+
+> 🔒 **Security Notice**: Access is secured with bcrypt credential hashing, signed JWT sessions, inactivity timeouts, and progressive brute-force lockout defenses (5 failed attempts trigger an automated 15-minute freeze). Default administrator accounts must be provisioned via secure database seeding or environment variables.
 
 ---
 
@@ -221,9 +223,9 @@ cp .env.example .env.local
 
 Configure your environment variables:
 ```env
-DATABASE_URL="postgresql://user:password@localhost:5432/movienexus_db?schema=public"
+DATABASE_URL="postgresql://username:your_password@localhost:5432/movienexus_db?schema=public"
 NEXT_PUBLIC_APP_URL="https://streamvault-gamma-fawn.vercel.app"
-JWT_SECRET="super-secret-jwt-signing-key-movienexus-2026"
+JWT_SECRET="your-jwt-secret-key-here"
 CDN_EDGE_HOST="https://cdn.streamvault.app"
 CORS_ORIGIN="https://streamvault-gamma-fawn.vercel.app"
 ```

@@ -45,7 +45,7 @@ export default function AdminLoginPage() {
           setLockoutSecs(lockStatus.remainingSeconds || 900);
           setErrorMsg('Too many failed login attempts. Account temporarily locked for 15 minutes.');
         } else {
-          setErrorMsg('Invalid admin credentials. (Hint: Try username "admin" & password "admin123")');
+          setErrorMsg('Invalid admin username or password. Please verify your credentials.');
         }
 
         addAuditLogEntry({

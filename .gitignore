@@ -54,3 +54,12 @@ next-env.d.ts
 *.sqlite
 *.sqlite3
 *.db
+
+# Temporary, cache and logs
+*.log
+*.tmp
+*.bak
+*.orig
+.antigravity/
+.antigravity-ide/
+.agents/
